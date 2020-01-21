@@ -10,6 +10,17 @@
 		77C4ED5823C8E0B6006B10FB /* LoadingAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */; };
 		77C4ED5D23C8E0B6006B10FB /* LoadingAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED5C23C8E0B6006B10FB /* LoadingAlertTests.swift */; };
 		77C4ED5F23C8E0B6006B10FB /* LoadingAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C4ED5123C8E0B6006B10FB /* LoadingAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77C4ED6923C8E0F5006B10FB /* LoadingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED6823C8E0F5006B10FB /* LoadingAlert.swift */; };
+		77C4ED6B23C8E11F006B10FB /* UIViewController+LoadingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED6A23C8E11F006B10FB /* UIViewController+LoadingAlert.swift */; };
+		77C4ED6D23C8E190006B10FB /* LoadingAlertTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED6C23C8E190006B10FB /* LoadingAlertTransition.swift */; };
+		77C4ED7523C8E65F006B10FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED7423C8E65F006B10FB /* AppDelegate.swift */; };
+		77C4ED7723C8E65F006B10FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED7623C8E65F006B10FB /* SceneDelegate.swift */; };
+		77C4ED7923C8E65F006B10FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED7823C8E65F006B10FB /* ViewController.swift */; };
+		77C4ED7C23C8E65F006B10FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C4ED7A23C8E65F006B10FB /* Main.storyboard */; };
+		77C4ED7E23C8E660006B10FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C4ED7D23C8E660006B10FB /* Assets.xcassets */; };
+		77C4ED8123C8E660006B10FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C4ED7F23C8E660006B10FB /* LaunchScreen.storyboard */; };
+		77C4ED8723C8E6C1006B10FB /* LoadingAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */; };
+		77C4ED8823C8E6C1006B10FB /* LoadingAlert.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +31,28 @@
 			remoteGlobalIDString = 77C4ED4D23C8E0B6006B10FB;
 			remoteInfo = LoadingAlert;
 		};
+		77C4ED8923C8E6C1006B10FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77C4ED4523C8E0B6006B10FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C4ED4D23C8E0B6006B10FB;
+			remoteInfo = LoadingAlert;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77C4ED8B23C8E6C1006B10FB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77C4ED8823C8E6C1006B10FB /* LoadingAlert.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoadingAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +61,17 @@
 		77C4ED5723C8E0B6006B10FB /* LoadingAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C4ED5C23C8E0B6006B10FB /* LoadingAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlertTests.swift; sourceTree = "<group>"; };
 		77C4ED5E23C8E0B6006B10FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C4ED6823C8E0F5006B10FB /* LoadingAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlert.swift; sourceTree = "<group>"; };
+		77C4ED6A23C8E11F006B10FB /* UIViewController+LoadingAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LoadingAlert.swift"; sourceTree = "<group>"; };
+		77C4ED6C23C8E190006B10FB /* LoadingAlertTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlertTransition.swift; sourceTree = "<group>"; };
+		77C4ED7223C8E65F006B10FB /* LoadingAlertExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingAlertExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C4ED7423C8E65F006B10FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77C4ED7623C8E65F006B10FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77C4ED7823C8E65F006B10FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77C4ED7B23C8E65F006B10FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77C4ED7D23C8E660006B10FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77C4ED8023C8E660006B10FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77C4ED8223C8E660006B10FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +90,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77C4ED6F23C8E65F006B10FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C4ED8723C8E6C1006B10FB /* LoadingAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,8 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				77C4ED5023C8E0B6006B10FB /* LoadingAlert */,
+				77C4ED7323C8E65F006B10FB /* LoadingAlertExample */,
 				77C4ED5B23C8E0B6006B10FB /* LoadingAlertTests */,
 				77C4ED4F23C8E0B6006B10FB /* Products */,
+				77C4ED8623C8E6C1006B10FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +117,7 @@
 			children = (
 				77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */,
 				77C4ED5723C8E0B6006B10FB /* LoadingAlertTests.xctest */,
+				77C4ED7223C8E65F006B10FB /* LoadingAlertExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +125,9 @@
 		77C4ED5023C8E0B6006B10FB /* LoadingAlert */ = {
 			isa = PBXGroup;
 			children = (
+				77C4ED6823C8E0F5006B10FB /* LoadingAlert.swift */,
+				77C4ED6C23C8E190006B10FB /* LoadingAlertTransition.swift */,
+				77C4ED6A23C8E11F006B10FB /* UIViewController+LoadingAlert.swift */,
 				77C4ED5123C8E0B6006B10FB /* LoadingAlert.h */,
 				77C4ED5223C8E0B6006B10FB /* Info.plist */,
 			);
@@ -84,6 +141,27 @@
 				77C4ED5E23C8E0B6006B10FB /* Info.plist */,
 			);
 			path = LoadingAlertTests;
+			sourceTree = "<group>";
+		};
+		77C4ED7323C8E65F006B10FB /* LoadingAlertExample */ = {
+			isa = PBXGroup;
+			children = (
+				77C4ED7423C8E65F006B10FB /* AppDelegate.swift */,
+				77C4ED7623C8E65F006B10FB /* SceneDelegate.swift */,
+				77C4ED7823C8E65F006B10FB /* ViewController.swift */,
+				77C4ED7A23C8E65F006B10FB /* Main.storyboard */,
+				77C4ED7D23C8E660006B10FB /* Assets.xcassets */,
+				77C4ED7F23C8E660006B10FB /* LaunchScreen.storyboard */,
+				77C4ED8223C8E660006B10FB /* Info.plist */,
+			);
+			path = LoadingAlertExample;
+			sourceTree = "<group>";
+		};
+		77C4ED8623C8E6C1006B10FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +214,25 @@
 			productReference = 77C4ED5723C8E0B6006B10FB /* LoadingAlertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		77C4ED7123C8E65F006B10FB /* LoadingAlertExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C4ED8323C8E660006B10FB /* Build configuration list for PBXNativeTarget "LoadingAlertExample" */;
+			buildPhases = (
+				77C4ED6E23C8E65F006B10FB /* Sources */,
+				77C4ED6F23C8E65F006B10FB /* Frameworks */,
+				77C4ED7023C8E65F006B10FB /* Resources */,
+				77C4ED8B23C8E6C1006B10FB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77C4ED8A23C8E6C1006B10FB /* PBXTargetDependency */,
+			);
+			name = LoadingAlertExample;
+			productName = LoadingAlertExample;
+			productReference = 77C4ED7223C8E65F006B10FB /* LoadingAlertExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +245,12 @@
 				TargetAttributes = {
 					77C4ED4D23C8E0B6006B10FB = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					77C4ED5623C8E0B6006B10FB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					77C4ED7123C8E65F006B10FB = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -169,6 +270,7 @@
 			targets = (
 				77C4ED4D23C8E0B6006B10FB /* LoadingAlert */,
 				77C4ED5623C8E0B6006B10FB /* LoadingAlertTests */,
+				77C4ED7123C8E65F006B10FB /* LoadingAlertExample */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +290,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77C4ED7023C8E65F006B10FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C4ED8123C8E660006B10FB /* LaunchScreen.storyboard in Resources */,
+				77C4ED7E23C8E660006B10FB /* Assets.xcassets in Resources */,
+				77C4ED7C23C8E65F006B10FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C4ED6D23C8E190006B10FB /* LoadingAlertTransition.swift in Sources */,
+				77C4ED6B23C8E11F006B10FB /* UIViewController+LoadingAlert.swift in Sources */,
+				77C4ED6923C8E0F5006B10FB /* LoadingAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +321,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77C4ED6E23C8E65F006B10FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C4ED7923C8E65F006B10FB /* ViewController.swift in Sources */,
+				77C4ED7523C8E65F006B10FB /* AppDelegate.swift in Sources */,
+				77C4ED7723C8E65F006B10FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +339,31 @@
 			target = 77C4ED4D23C8E0B6006B10FB /* LoadingAlert */;
 			targetProxy = 77C4ED5923C8E0B6006B10FB /* PBXContainerItemProxy */;
 		};
+		77C4ED8A23C8E6C1006B10FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77C4ED4D23C8E0B6006B10FB /* LoadingAlert */;
+			targetProxy = 77C4ED8923C8E6C1006B10FB /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77C4ED7A23C8E65F006B10FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C4ED7B23C8E65F006B10FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77C4ED7F23C8E660006B10FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C4ED8023C8E660006B10FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		77C4ED6023C8E0B6006B10FB /* Debug */ = {
@@ -340,6 +489,7 @@
 		77C4ED6323C8E0B6006B10FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -347,6 +497,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LoadingAlert/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-erbschloe.LoadingAlert";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +515,7 @@
 		77C4ED6423C8E0B6006B10FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -370,6 +523,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LoadingAlert/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +540,7 @@
 		77C4ED6623C8E0B6006B10FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoadingAlertTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +558,7 @@
 		77C4ED6723C8E0B6006B10FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoadingAlertTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +567,40 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-erbschloe.LoadingAlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77C4ED8423C8E660006B10FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoadingAlertExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-erbschloe.LoadingAlertExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77C4ED8523C8E660006B10FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoadingAlertExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-erbschloe.LoadingAlertExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +633,15 @@
 			buildConfigurations = (
 				77C4ED6623C8E0B6006B10FB /* Debug */,
 				77C4ED6723C8E0B6006B10FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C4ED8323C8E660006B10FB /* Build configuration list for PBXNativeTarget "LoadingAlertExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C4ED8423C8E660006B10FB /* Debug */,
+				77C4ED8523C8E660006B10FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

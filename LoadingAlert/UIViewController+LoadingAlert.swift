@@ -21,14 +21,21 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
+import UIKit
 
-//! Project version number for LoadingAlert.
-FOUNDATION_EXPORT double LoadingAlertVersionNumber;
-
-//! Project version string for LoadingAlert.
-FOUNDATION_EXPORT const unsigned char LoadingAlertVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <LoadingAlert/PublicHeader.h>
-
-
+extension UIViewController {
+    
+    public func presentLoadingAlertModal(animated: Bool, completion: (() -> Void)?) {
+        let viewController = LoadingAlertController()
+        present(viewController, animated: animated, completion: completion)
+    }
+    
+    public func dismissLoadingAlertModal(animated: Bool, completion: (() -> Void)?) {
+        guard presentedViewController is LoadingAlertController else {
+            completion?()
+            return
+        }
+        
+        dismiss(animated: animated, completion: completion)
+    }
+}
