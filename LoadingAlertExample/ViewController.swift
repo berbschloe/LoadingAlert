@@ -30,15 +30,9 @@ class ViewController: UIViewController {
 
     @objc func showDialog() {
         presentLoadingAlertModal(animated: true, completion: nil)
-        presentLoadingAlertModal(animated: true, completion: nil)
-        presentLoadingAlertModal(animated: true, completion: nil)
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-            self.dismissLoadingAlertModal(animated: true) { print("here") }
-            self.dismissLoadingAlertModal(animated: true) { print("here") }
-            self.dismissLoadingAlertModal(animated: true) { print("here") }
-            self.dismissLoadingAlertModal(animated: true) { print("here") }
-            self.dismissLoadingAlertModal(animated: true) { print("here") }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [weak self] in
+            self?.dismissLoadingAlertModal(animated: true, completion: nil)
         }
     }
 }
