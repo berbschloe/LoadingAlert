@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77B5C941246B93BF00089993 /* AlertAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5C940246B93BF00089993 /* AlertAnimationController.swift */; };
+		77B5C943246B93DC00089993 /* AlertPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5C942246B93DC00089993 /* AlertPresentationController.swift */; };
 		77C4ED5823C8E0B6006B10FB /* LoadingAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */; };
 		77C4ED5D23C8E0B6006B10FB /* LoadingAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED5C23C8E0B6006B10FB /* LoadingAlertTests.swift */; };
 		77C4ED5F23C8E0B6006B10FB /* LoadingAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C4ED5123C8E0B6006B10FB /* LoadingAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C4ED6923C8E0F5006B10FB /* LoadingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED6823C8E0F5006B10FB /* LoadingAlert.swift */; };
 		77C4ED6B23C8E11F006B10FB /* UIViewController+LoadingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED6A23C8E11F006B10FB /* UIViewController+LoadingAlert.swift */; };
-		77C4ED6D23C8E190006B10FB /* LoadingAlertTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED6C23C8E190006B10FB /* LoadingAlertTransition.swift */; };
+		77C4ED6D23C8E190006B10FB /* AlertTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED6C23C8E190006B10FB /* AlertTransition.swift */; };
 		77C4ED7523C8E65F006B10FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED7423C8E65F006B10FB /* AppDelegate.swift */; };
 		77C4ED7723C8E65F006B10FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED7623C8E65F006B10FB /* SceneDelegate.swift */; };
 		77C4ED7923C8E65F006B10FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ED7823C8E65F006B10FB /* ViewController.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		77B5C940246B93BF00089993 /* AlertAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAnimationController.swift; sourceTree = "<group>"; };
+		77B5C942246B93DC00089993 /* AlertPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentationController.swift; sourceTree = "<group>"; };
 		77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoadingAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C4ED5123C8E0B6006B10FB /* LoadingAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingAlert.h; sourceTree = "<group>"; };
 		77C4ED5223C8E0B6006B10FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +67,7 @@
 		77C4ED5E23C8E0B6006B10FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77C4ED6823C8E0F5006B10FB /* LoadingAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlert.swift; sourceTree = "<group>"; };
 		77C4ED6A23C8E11F006B10FB /* UIViewController+LoadingAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LoadingAlert.swift"; sourceTree = "<group>"; };
-		77C4ED6C23C8E190006B10FB /* LoadingAlertTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlertTransition.swift; sourceTree = "<group>"; };
+		77C4ED6C23C8E190006B10FB /* AlertTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTransition.swift; sourceTree = "<group>"; };
 		77C4ED7223C8E65F006B10FB /* LoadingAlertExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingAlertExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C4ED7423C8E65F006B10FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77C4ED7623C8E65F006B10FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,7 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				77C4ED6823C8E0F5006B10FB /* LoadingAlert.swift */,
-				77C4ED6C23C8E190006B10FB /* LoadingAlertTransition.swift */,
+				77C4ED6C23C8E190006B10FB /* AlertTransition.swift */,
+				77B5C940246B93BF00089993 /* AlertAnimationController.swift */,
+				77B5C942246B93DC00089993 /* AlertPresentationController.swift */,
 				77C4ED6A23C8E11F006B10FB /* UIViewController+LoadingAlert.swift */,
 				77C4ED5123C8E0B6006B10FB /* LoadingAlert.h */,
 				77C4ED5223C8E0B6006B10FB /* Info.plist */,
@@ -307,7 +313,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C4ED6D23C8E190006B10FB /* LoadingAlertTransition.swift in Sources */,
+				77C4ED6D23C8E190006B10FB /* AlertTransition.swift in Sources */,
+				77B5C943246B93DC00089993 /* AlertPresentationController.swift in Sources */,
+				77B5C941246B93BF00089993 /* AlertAnimationController.swift in Sources */,
 				77C4ED6B23C8E11F006B10FB /* UIViewController+LoadingAlert.swift in Sources */,
 				77C4ED6923C8E0F5006B10FB /* LoadingAlert.swift in Sources */,
 			);
@@ -417,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -474,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
