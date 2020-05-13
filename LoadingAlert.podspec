@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "LoadingAlert"
-    s.version = "1.0.0"
+    s.version = "1.1.0"
     s.summary = "A simple, fullscreen loading alert modal with an activity indicator."
     s.homepage = "https://github.com/berbschloe/loadingalert"
     s.license = "MIT"
