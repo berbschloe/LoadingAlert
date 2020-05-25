@@ -39,7 +39,7 @@ extension UIViewController {
         dismiss(animated: animated, completion: completion)
     }
     
-    public func bindLoadingAlertModal(completion: (() -> Void)? = nil) -> (() -> Void) {
+    public func bindLoadingAlertModal(to completion: (() -> Void)? = nil) -> (() -> Void) {
         presentLoadingAlertModal(animated: true, completion: nil)
         return { [weak self] in
             self?.dismissLoadingAlertModal(animated: true) {
@@ -48,7 +48,7 @@ extension UIViewController {
         }
     }
     
-    public func bindLoadingAlertModal<T>(completion: ((T) -> Void)?) -> ((T) -> Void) {
+    public func bindLoadingAlertModal<T>(to completion: ((T) -> Void)?) -> ((T) -> Void) {
         presentLoadingAlertModal(animated: true, completion: nil)
         return { [weak self] param in
             self?.dismissLoadingAlertModal(animated: true) {
