@@ -29,10 +29,11 @@ class ViewController: UIViewController {
     }
 
     @objc func showDialog() {
-        presentLoadingAlertModal(animated: true, completion: nil)
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [weak self] in
-            self?.dismissLoadingAlertModal(animated: true, completion: nil)
-        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: LoadingAlert.bind {
+            let vc = UIViewController()
+            vc.view.backgroundColor = .red
+            self.present(vc, animated: true, completion: nil)
+        })
     }
 }
+

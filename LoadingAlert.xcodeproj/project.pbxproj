@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7794F48B247B36BE00B1294C /* LoadingAlert+WIndow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794F48A247B36BE00B1294C /* LoadingAlert+WIndow.swift */; };
 		77B5C941246B93BF00089993 /* AlertAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5C940246B93BF00089993 /* AlertAnimationController.swift */; };
 		77B5C943246B93DC00089993 /* AlertPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5C942246B93DC00089993 /* AlertPresentationController.swift */; };
 		77C4ED5823C8E0B6006B10FB /* LoadingAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7794F48A247B36BE00B1294C /* LoadingAlert+WIndow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingAlert+WIndow.swift"; sourceTree = "<group>"; };
 		77B5C940246B93BF00089993 /* AlertAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAnimationController.swift; sourceTree = "<group>"; };
 		77B5C942246B93DC00089993 /* AlertPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentationController.swift; sourceTree = "<group>"; };
 		77C4ED4E23C8E0B6006B10FB /* LoadingAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoadingAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 				77C4ED6C23C8E190006B10FB /* AlertTransition.swift */,
 				77B5C940246B93BF00089993 /* AlertAnimationController.swift */,
 				77B5C942246B93DC00089993 /* AlertPresentationController.swift */,
+				7794F48A247B36BE00B1294C /* LoadingAlert+WIndow.swift */,
 				77C4ED6A23C8E11F006B10FB /* UIViewController+LoadingAlert.swift */,
 				77C4ED5123C8E0B6006B10FB /* LoadingAlert.h */,
 				77C4ED5223C8E0B6006B10FB /* Info.plist */,
@@ -316,6 +319,7 @@
 				77C4ED6D23C8E190006B10FB /* AlertTransition.swift in Sources */,
 				77B5C943246B93DC00089993 /* AlertPresentationController.swift in Sources */,
 				77B5C941246B93BF00089993 /* AlertAnimationController.swift in Sources */,
+				7794F48B247B36BE00B1294C /* LoadingAlert+WIndow.swift in Sources */,
 				77C4ED6B23C8E11F006B10FB /* UIViewController+LoadingAlert.swift in Sources */,
 				77C4ED6923C8E0F5006B10FB /* LoadingAlert.swift in Sources */,
 			);
